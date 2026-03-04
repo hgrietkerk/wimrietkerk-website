@@ -425,6 +425,25 @@ p { margin-bottom: var(--spacing-sm); }
   color: var(--color-primary-light);
 }
 
+a.download-link {
+  display: inline-block;
+  margin-top: 0.3rem;
+  padding: 0.25rem 0.7rem;
+  font-size: 0.8rem;
+  color: var(--color-primary);
+  background: var(--color-sand);
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background 0.2s, color 0.2s;
+}
+
+a.download-link:hover {
+  background: var(--color-primary);
+  color: var(--color-white);
+  border-color: var(--color-primary);
+}
+
 /* Audio player */
 .audio-player {
   margin-top: 0.5rem;
