@@ -267,6 +267,23 @@ p { margin-bottom: var(--spacing-sm); }
   object-fit: cover;
 }
 
+.section-link {
+  text-align: center;
+  margin-top: var(--spacing-md);
+}
+
+.section-link a {
+  color: var(--color-primary);
+  font-weight: 500;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.2s;
+}
+
+.section-link a:hover {
+  border-bottom-color: var(--color-primary);
+}
+
 .book-card h3 {
   font-size: 1.05rem;
   color: var(--color-primary-dark);
