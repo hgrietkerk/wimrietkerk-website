@@ -296,6 +296,18 @@ p { margin-bottom: var(--spacing-sm); }
   font-style: italic;
 }
 
+.book-card-downloads {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  margin-top: 0.5rem;
+}
+
+.book-card-downloads .download-link {
+  font-size: 0.8rem;
+  padding: 0.3rem 0.8rem;
+}
+
 /* --- Themes Section --- */
 .themes-section {
   padding: var(--spacing-xl) 0;
